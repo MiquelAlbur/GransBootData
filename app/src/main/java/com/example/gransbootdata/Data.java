@@ -1,6 +1,6 @@
 package com.example.gransbootdata;
 
-public class Data {
+public class Data {//Object class for each attack's data
     private String _name, _input, _type, _start, _advb, _advhit, _desc,_damage;
 
     public Data() {

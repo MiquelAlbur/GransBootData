@@ -213,7 +213,7 @@
   <!--Special Moves-->
   <!--Frozen Blade-->
   <attack input="236L">
-    <name> 236x</name>
+    <name>236x</name>
     <damage>800</damage>
     <type>All</type>
     <start>16</start>

@@ -1,12 +1,15 @@
 package com.example.gransbootdata;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.net.IpSecManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -47,8 +50,10 @@ public class RecyclerAdapterAttack extends RecyclerView.Adapter<RecyclerAdapterA
 
         private TextView input,type,start,advb,advhit,desc;
         private ImageView im;
+        private LinearLayout ll;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            this.ll = itemView.findViewById(R.id.ll);
             this.im = itemView.findViewById(R.id.attackimage);
             this.input = itemView.findViewById(R.id.input);
             this.type = itemView.findViewById(R.id.type);
@@ -61,7 +66,6 @@ public class RecyclerAdapterAttack extends RecyclerView.Adapter<RecyclerAdapterA
         public void bind(Data at){
             if(!at.get_name().equals("")){
                 this.im.setImageResource(_context.getResources().getIdentifier(_name.toLowerCase()+at.get_name(),"drawable",_context.getPackageName()));//Character name + attack input = imagename
-                System.out.println(_name.toLowerCase()+at.get_name());
             }else{
                 this.im.setImageResource(0);
             }
@@ -70,6 +74,7 @@ public class RecyclerAdapterAttack extends RecyclerView.Adapter<RecyclerAdapterA
             this.start.setText(at.get_start());
             this.desc.setText(at.get_desc());
             this.advb.setText(at.get_advb());
+           //this.ll.getBackground().setColorFilter(Color.parseColor("#343434"), PorterDuff.Mode.SRC_IN);
             try {
                if (!at.get_advb().equals("-")) {
                     if (Integer.parseInt((at.get_advb())) < 0) {
@@ -86,7 +91,7 @@ public class RecyclerAdapterAttack extends RecyclerView.Adapter<RecyclerAdapterA
             }
             this.advhit.setText(at.get_advhit());
             try {
-                if(at.get_advhit().equals("Knockdown")){
+                if(at.get_advhit().equals("Knockdown") || at.get_advhit().equals("HKD")){
                     this.advhit.setBackgroundColor(_context.getResources().getColor(R.color.Positive));
                 }else if (!at.get_advhit().equals("-")) {
                     if (Integer.parseInt(at.get_advhit()) < 0) {

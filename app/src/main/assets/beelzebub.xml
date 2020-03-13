@@ -187,7 +187,7 @@
   <!--Black Fly-->
   <!--Light-->
   <attack input="Lvl1 236L">
-    <name>236x</name>
+    <name>236l</name>
     <damage>800</damage>
     <type>Mid</type>
     <start>18</start>
@@ -206,7 +206,7 @@
   </attack>
   <!--Medium-->
   <attack input="Lvl1 236M">
-    <name></name>
+    <name>236m</name>
     <damage>900,100</damage>
     <type>Mid</type>
     <start>38</start>
@@ -234,7 +234,7 @@
   </attack>
   <!--Heavy-->
   <attack input="Lvl1 236H">
-    <name></name>
+    <name>236h1</name>
     <damage>500,500,100</damage>
     <type>Mid</type>
     <start>18</start>
@@ -243,7 +243,7 @@
     <desc></desc>
   </attack>
   <attack input="Lvl2 236H">
-    <name></name>
+    <name>236h2</name>
     <damage>500,100,500,100,100</damage>
     <type>Mid</type>
     <start>33</start>
@@ -252,7 +252,7 @@
     <desc></desc>
   </attack>
   <attack input="Lvl3 236H">
-    <name></name>
+    <name>236h3</name>
     <damage>500,100,100,500,100,100,100</damage>
     <type>Mid</type>
     <start>48</start>
@@ -290,7 +290,7 @@
   </attack>
   <!--Chaos Calibur-->
   <attack input="214L">
-    <name>214x</name>
+    <name>214l</name>
     <damage>200,400,400</damage>
     <type>Mid</type>
     <start>16</start>
@@ -299,7 +299,7 @@
     <desc></desc>
   </attack>
   <attack input="214M">
-    <name></name>
+    <name>214m</name>
     <damage>250,500,500</damage>
     <type>Low</type>
     <start>20</start>
@@ -308,7 +308,7 @@
     <desc></desc>
   </attack>
   <attack input="214H">
-    <name></name>
+    <name>214h</name>
     <damage>200,200,200,200,200,200</damage>
     <type>Low, Mid</type>
     <start>14</start>
@@ -364,7 +364,7 @@
     <desc></desc>
   </attack>
   <attack input="j.214H">
-    <name></name>
+    <name>j214h</name>
     <damage>800,400</damage>
     <type>Mid</type>
     <start>13</start>
