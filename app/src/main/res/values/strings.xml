@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GransBootData</string>
+    <string name="textview">TextView</string>
+    <string name="startup">Startup</string>
+    <string name="advantage">Advantage</string>
+    <string name="image_for_the_attack">Image for the attack</string>
+    <string name="character_s_portrait">Character\'s portrait</string>
+    <string name="charname">charName</string>
+</resources>

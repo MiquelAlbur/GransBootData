@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Normal Moves-->
+  <attack input="c.L)">
+    <name>cl</name>
+    <damage>400</damage>
+    <type>Mid</type>
+    <start>6</start>
+    <advb>-1</advb>
+    <advh>+3</advh>
+    <desc></desc>
+  </attack>
+  <attack input="c.M">
+    <name>cm</name>
+    <damage>700</damage>
+    <type>Mid</type>
+    <start>7</start>
+    <advb>+2</advb>
+    <advh>+6</advh>
+    <desc></desc>
+  </attack>
+  <attack input="c.H">
+    <name>ch</name>
+    <damage>400*3</damage>
+    <type>Mid</type>
+    <start>11</start>
+    <advb>-4</advb>
+    <advh>+0</advh>
+    <desc></desc>
+  </attack>
+  <attack input="XX">
+    <name>xx</name>
+    <damage>300</damage>
+    <type>Mid</type>
+    <start>-</start>
+    <advb>-3</advb>
+    <advh>+1</advh>
+    <desc></desc>
+  </attack>
+  <attack input="XXX">
+    <name>xxx</name>
+    <damage>300</damage>
+    <type>Mid</type>
+    <start>-</start>
+    <advb>-4</advb>
+    <advh>+0</advh>
+    <desc></desc>
+  </attack>
+  <attack input="f.L">
+    <name>fl</name>
+    <damage>400</damage>
+    <type>Low</type>
+    <start>8</start>
+    <advb>+1</advb>
+    <advh>+5</advh>
+    <desc></desc>
+  </attack>
+  <attack input="f.M">
+    <name>fm</name>
+    <damage>700</damage>
+    <type>Mid</type>
+    <start>10</start>
+    <advb>-7</advb>
+    <advh>-3</advh>
+    <desc></desc>
+  </attack>
+  <attack input="f.H">
+    <name>fh</name>
+    <damage>800</damage>
+    <type>Mid</type>
+    <start>16</start>
+    <advb>-1</advb>
+    <advh>+3</advh>
+    <desc></desc>
+  </attack>
+  <attack input="2L">
+    <name>2l</name>
+    <damage>400</damage>
+    <type>Low</type>
+    <start>6</start>
+    <advb>+2</advb>
+    <advh>+6</advh>
+    <desc></desc>
+  </attack>
+  <attack input="2M">
+    <name>2m</name>
+    <damage>700</damage>
+    <type>Mid</type>
+    <start>8</start>
+    <advb>-3</advb>
+    <advh>+1</advh>
+    <desc></desc>
+  </attack>
+  <attack input="2H">
+    <name>2h</name>
+    <damage>800</damage>
+    <type>Mid</type>
+    <start>11</start>
+    <advb>-5</advb>
+    <advh>-1</advh>
+    <desc></desc>
+  </attack>
+  <attack input="2U">
+    <name>2u</name>
+    <damage>700</damage>
+    <type>Low</type>
+    <start>13</start>
+    <advb>-14</advb>
+    <advh>Knockdown</advh>
+    <desc></desc>
+  </attack>
+  <attack input="j.L">
+    <name>jl</name>
+    <damage>400</damage>
+    <type>High/Air</type>
+    <start>6</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="j.M">
+    <name>jm</name>
+    <damage>350*2</damage>
+    <type>High/Air</type>
+    <start>8</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="j.H">
+    <name>jh</name>
+    <damage>800</damage>
+    <type>High/Air</type>
+    <start>13</start>
+    <advb>?</advb>
+    <advh>?</advh>
+    <desc></desc>
+  </attack>
+  <attack input="j.U">
+    <name>-</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Unique Action-->
+  <attack input="5U">
+    <name>5u</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>21</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Universal Mechanics-->
+  <attack input="Ground Throw">
+    <name>gt</name>
+    <damage>1500</damage>
+    <type>Throw</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Air Throw">
+    <name>at</name>
+    <damage>1500</damage>
+    <type>Throw</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Overhead Attack">
+    <name>oa</name>
+    <damage>1000</damage>
+    <type>High</type>
+    <start>26</start>
+    <advb>-4</advb>
+    <advh>+1</advh>
+    <desc></desc>
+  </attack>
+  <!--Special Moves-->
+  <!--Starry Sky (High)-->
+  <attack input="236L">
+    <name>236x</name>
+    <damage>800</damage>
+    <type>All</type>
+    <start>12</start>
+    <advb>-5</advb>
+    <advh>+2</advh>
+    <desc></desc>
+  </attack>
+  <attack input="236M">
+    <name></name>
+    <damage>800</damage>
+    <type>All</type>
+    <start>12</start>
+    <advb>-5</advb>
+    <advh>+2</advh>
+    <desc></desc>
+  </attack>
+  <attack input="236H">
+    <name></name>
+    <damage>350*3</damage>
+    <type>All</type>
+    <start>12</start>
+    <advb>+5</advb>
+    <advh>Knockdown</advh>
+    <desc></desc>
+  </attack>
+  <!--Starry Sky(Low)-->
+  <attack input="214L">
+    <name>214x</name>
+    <damage>800</damage>
+    <type>All</type>
+    <start>13</start>
+    <advb>-7</advb>
+    <advh>+1</advh>
+    <desc></desc>
+  </attack>
+  <attack input="214M">
+    <name></name>
+    <damage>800</damage>
+    <type>All</type>
+    <start>13</start>
+    <advb>-7</advb>
+    <advh>+1</advh>
+    <desc></desc>
+  </attack>
+  <attack input="214H">
+    <name></name>
+    <damage>350*3</damage>
+    <type>All</type>
+    <start>13</start>
+    <advb>+3</advb>
+    <advh>Knockdown</advh>
+    <desc></desc>
+  </attack>
+  <!--The Great Fall-->
+  <attack input="623L">
+    <name>623x</name>
+    <damage>800,150*4</damage>
+    <type>All</type>
+    <start>22+18</start>
+    <advb>+18</advb>
+    <advh>+30</advh>
+    <desc></desc>
+  </attack>
+  <attack input="623M">
+    <name></name>
+    <damage>800,150*4</damage>
+    <type>All</type>
+    <start>22+18</start>
+    <advb>+18</advb>
+    <advh>+30</advh>
+    <desc></desc>
+  </attack>
+  <attack input="623H">
+    <name></name>
+    <damage>800,150*4</damage>
+    <type>All</type>
+    <start>15+25</start>
+    <advb>+21</advb>
+    <advh>+31</advh>
+    <desc></desc>
+  </attack>
+  <!--Aetherial Seal-->
+  <attack input="22L">
+    <name>22x</name>
+    <damage>200*5</damage>
+    <type>All</type>
+    <start>25</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="22M">
+    <name></name>
+    <damage>200*5</damage>
+    <type>All</type>
+    <start>25</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="22H">
+    <name></name>
+    <damage>200*5</damage>
+    <type>All</type>
+    <start>25</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Skybound Art-->
+  <attack input="236236H or 236S">
+    <name>236236h</name>
+    <damage>1000*2,1500[1000*2,500]</damage>
+    <type>Mid</type>
+    <start>8+5</start>
+    <advb>-65</advb>
+    <advh>HKD</advh>
+    <desc></desc>
+  </attack>
+  <!--Super Skybound Art-->
+  <attack input="236236U or 236S+U">
+    <name>236236u</name>
+    <damage>200*10,1000,200*4,190,475[200*10,1000]</damage>
+    <type>All</type>
+    <start>8+8</start>
+    <advb>-29</advb>
+    <advh>HKD</advh>
+    <desc></desc>
+  </attack>
+  <attack input="">
+    <name></name>
+    <damage></damage>
+    <type></type>
+    <start></start>
+    <advb></advb>
+    <advh></advh>
+    <desc></desc>
+  </attack>
+</resources>

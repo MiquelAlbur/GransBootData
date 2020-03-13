@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Normal Moves-->
+  <attack input="XX">
+    <name>xx</name>
+    <damage>350</damage>
+    <type>Mid</type>
+    <start>-</start>
+    <advb>-3</advb>
+    <advh>+1</advh>
+    <desc></desc>
+  </attack>
+  <attack input="XXX">
+    <name>xxx</name>
+    <damage>350</damage>
+    <type>Mid</type>
+    <start>-</start>
+    <advb>-4</advb>
+    <advh>+0</advh>
+    <desc></desc>
+  </attack>
+  <!--Genji-->
+  <attack input="Genji 5L (c.L/f.L)">
+    <name>g5l</name>
+    <damage>300</damage>
+    <type>Mid</type>
+    <start>6</start>
+    <advb>-1</advb>
+    <advh>+3</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji c.M">
+    <name>gcm</name>
+    <damage>-</damage>
+    <type>Mid</type>
+    <start>7</start>
+    <advb>-2</advb>
+    <advh>+2</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji c.H">
+    <name>gch</name>
+    <damage>450,350(800)</damage>
+    <type>Mid</type>
+    <start>8</start>
+    <advb>-7</advb>
+    <advh>-3</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji f.M">
+    <name>gfm</name>
+    <damage>600</damage>
+    <type>Mid</type>
+    <start>9</start>
+    <advb>-6</advb>
+    <advh>-2</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji f.H">
+    <name>gfh</name>
+    <damage>900</damage>
+    <type>Mid</type>
+    <start>10</start>
+    <advb>-9</advb>
+    <advh>-5</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 2L">
+    <name>g2l</name>
+    <damage>350</damage>
+    <type>Low</type>
+    <start>6</start>
+    <advb>+2</advb>
+    <advh>+6</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 2M">
+    <name>g2m</name>
+    <damage>600</damage>
+    <type>Mid</type>
+    <start>8</start>
+    <advb>-3</advb>
+    <advh>+1</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 2H">
+    <name>g2h</name>
+    <damage>900</damage>
+    <type>Mid</type>
+    <start>11</start>
+    <advb>-11</advb>
+    <advh>-7</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 2U">
+    <name>g2u</name>
+    <damage>700</damage>
+    <type>Low</type>
+    <start>8</start>
+    <advb>-11</advb>
+    <advh>Knockdown</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji j.L">
+    <name>gjl</name>
+    <damage>400</damage>
+    <type>High</type>
+    <start>5</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji j.M">
+    <name>gjm</name>
+    <damage>550</damage>
+    <type>High</type>
+    <start>6</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji j.H">
+    <name>gjh</name>
+    <damage>700</damage>
+    <type>High</type>
+    <start>9</start>
+    <advb></advb>
+    <advh></advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji j.U">
+    <name>gju</name>
+    <damage>800</damage>
+    <type>High</type>
+    <start>10</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Kagura-->
+  <attack input="Kagura 5L (c.L/f.L)">
+    <name>k5l</name>
+    <damage>300</damage>
+    <type>Mid</type>
+    <start>5</start>
+    <advb>-1</advb>
+    <advh>+2</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura c.M">
+    <name>kcm</name>
+    <damage>650</damage>
+    <type>Mid</type>
+    <start>6</start>
+    <advb>+0</advb>
+    <advh>+4</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura c.H">
+    <name>kch</name>
+    <damage>1100</damage>
+    <type>Mid</type>
+    <start>10</start>
+    <advb>-2</advb>
+    <advh>+2</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura f.M">
+    <name>kfm</name>
+    <damage>600</damage>
+    <type>Mid</type>
+    <start>7</start>
+    <advb>-8</advb>
+    <advh>-4</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura f.H">
+    <name>kfh</name>
+    <damage>1000</damage>
+    <type>Mid</type>
+    <start>9</start>
+    <advb>-9</advb>
+    <advh>-5</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 2L">
+    <name>k2l</name>
+    <damage>350</damage>
+    <type>Low</type>
+    <start>6</start>
+    <advb>+2</advb>
+    <advh>+6</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 2M">
+    <name>k2m</name>
+    <damage>600</damage>
+    <type>Mid</type>
+    <start>7</start>
+    <advb>+2</advb>
+    <advh>+5</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 2H">
+    <name>k2h</name>
+    <damage>900</damage>
+    <type>Mid</type>
+    <start>10</start>
+    <advb>-13</advb>
+    <advh>-9</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 2U">
+    <name>k2u</name>
+    <damage>700</damage>
+    <type>Low</type>
+    <start>7</start>
+    <advb>-12</advb>
+    <advh>Knockdown</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura j.L">
+    <name>kjl</name>
+    <damage>400</damage>
+    <type>High</type>
+    <start>5</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura j.M">
+    <name>kjm</name>
+    <damage>550</damage>
+    <type>High</type>
+    <start>7</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura j.H">
+    <name>kjh</name>
+    <damage>800</damage>
+    <type>High</type>
+    <start>12</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura j.U">
+    <name>kju</name>
+    <damage>800</damage>
+    <type>High</type>
+    <start>9</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Unique Action-->
+  <attack input="5U">
+    <name>5u</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Universal Mechanics-->
+  <attack input="Ground Throw">
+    <name>gt</name>
+    <damage>1500</damage>
+    <type>Throw</type>
+    <start>8</start>
+    <advb>-</advb>
+    <advh>Knockdown</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Air Throw">
+    <name>at</name>
+    <damage>1500</damage>
+    <type>Throw</type>
+    <start>5</start>
+    <advb>-</advb>
+    <advh>Knockdown</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Overhead Attack">
+    <name>oa</name>
+    <damage>1000</damage>
+    <type>High</type>
+    <start></start>
+    <advb></advb>
+    <advh></advh>
+    <desc></desc>
+  </attack>
+  <!--Special Moves-->
+  <!--Genji-->
+  <!--Setsuna-->
+  <attack input="Genji 236L">
+    <name>g236x</name>
+    <damage>700</damage>
+    <type>Mid</type>
+    <start>14</start>
+    <advb>-12</advb>
+    <advh>-4</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 236M">
+    <name></name>
+    <damage>700</damage>
+    <type>Mid</type>
+    <start>32[70]</start>
+    <advb>+10</advb>
+    <advh>+14</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 236H">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>15</start>
+    <advb>+6</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 2/5S">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Banri Ikkuu-->
+  <attack input="Genji 623L">
+    <name>g623x</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>7</start>
+    <advb>-23</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 623M">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>7</start>
+    <advb>-27</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 623H">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>7</start>
+    <advb>-27</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 6S">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Utakata-->
+  <attack input="Genji 214L">
+    <name>g214x</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 214M">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 214H">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Genji 4S">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Kagura-->
+  <!--Kyouka Suigetsu-->
+  <attack input="Kagura 236L">
+    <name>k236x</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>13</start>
+    <advb>-6</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 236M">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>16</start>
+    <advb>-8</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 236H">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>15</start>
+    <advb>-6</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 2/5S">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Mugen Kagura-->
+  <attack input="Kagura 623L">
+    <name>k623x</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>20</start>
+    <advb>-18</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 623M">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>42</start>
+    <advb>-22</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 623H">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>42</start>
+    <advb>-22</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 6S">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Sengetsu-->
+  <attack input="Kagura 214L">
+    <name>k214x</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>32</start>
+    <advb>-3</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 214M">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>38</start>
+    <advb>-2</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 214H">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>30</start>
+    <advb>-16</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura 4S">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Air Sengetsu-->
+  <attack input="Kagura j.214L">
+    <name>kj214x</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>5</start>
+    <advb>+6~</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura j.214M">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>9</start>
+    <advb>+6~</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura j.214H">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>5</start>
+    <advb>+9~</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <attack input="Kagura j.5S">
+    <name></name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>-</start>
+    <advb>-</advb>
+    <advh>-</advh>
+    <desc></desc>
+  </attack>
+  <!--Skybound Art-->
+  <attack input="236236H or 236S">
+    <name>236236h</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>7+4</start>
+    <advb>-43</advb>
+    <advh>HKD</advh>
+    <desc></desc>
+  </attack>
+  <!--Super Skybound Art-->
+  <attack input="236236U or 236S+U">
+    <name>236236u</name>
+    <damage>-</damage>
+    <type>-</type>
+    <start>7+7</start>
+    <advb>-32</advb>
+    <advh>HKD</advh>
+    <desc></desc>
+  </attack>
+  <attack input="">
+    <name></name>
+    <damage></damage>
+    <type></type>
+    <start></start>
+    <advb></advb>
+    <advh></advh>
+    <desc></desc>
+  </attack>
+</resources>
