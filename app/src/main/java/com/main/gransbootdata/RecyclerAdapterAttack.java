@@ -51,6 +51,7 @@ public class RecyclerAdapterAttack extends RecyclerView.Adapter<RecyclerAdapterA
         return _attacks.size();
     }
 
+
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView input, type, start, advb, advhit, desc;
@@ -68,6 +69,7 @@ public class RecyclerAdapterAttack extends RecyclerView.Adapter<RecyclerAdapterA
                 this.desc = itemView.findViewById(R.id.desc);
             }
         }
+
 
         public void bind(Data at) {
             if(!_simple) {

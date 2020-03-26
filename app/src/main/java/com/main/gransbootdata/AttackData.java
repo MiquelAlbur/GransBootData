@@ -1,11 +1,16 @@
 package com.main.gransbootdata;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import org.xmlpull.v1.XmlPullParser;
@@ -27,22 +32,68 @@ public class AttackData extends AppCompatActivity {//Activity for each character
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_attack_data);
+        this._simple = getIntent().getBooleanExtra("simple",false);
+        if(_simple) {
+            setContentView(R.layout.simple_bar);
+            this._rv = findViewById(R.id.simpleatrv);
+            Toolbar toolbar = findViewById(R.id.simple_attack_toolbar);
+            setSupportActionBar(toolbar);
+        }else{
+            setContentView(R.layout.activity_attack_data);
+            this._rv = findViewById(R.id.atrv);
+            Toolbar toolbar = findViewById(R.id.attack_toolbar);
+            setSupportActionBar(toolbar);
+        }
         this._name = getIntent().getStringExtra("name");
         this.setTitle(_name);
-        this._rv = findViewById(R.id.atrv);
-        this._simple = getIntent().getBooleanExtra("simple",false);
         setAdapter();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        if(id == R.id.simple_mode){
+            toggle_display();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
     public void onBackPressed() {
         Intent resultIntent = new Intent();
-        resultIntent.putExtra("simple",false);
+        resultIntent.putExtra("simple",this._simple);
         setResult(RESULT_OK,resultIntent);
         super.onBackPressed();
     }
 
+    private void toggle_display(){
+        this._simple ^= true;
+        String t ="";
+        if(this._simple){
+            t = "Simple Mode activated";
+            setContentView(R.layout.simple_bar);
+            this.setTitle(_name);
+            this._rv = findViewById(R.id.simpleatrv);
+            Toolbar toolbar = findViewById(R.id.simple_attack_toolbar);
+            setSupportActionBar(toolbar);
+        }else{
+            t = "Back to Complete Mode";
+            setContentView(R.layout.activity_attack_data);
+            this.setTitle(_name);
+            this._rv = findViewById(R.id.atrv);
+            Toolbar toolbar = findViewById(R.id.attack_toolbar);
+            setSupportActionBar(toolbar);
+        }
+        Toast.makeText(this, t, Toast.LENGTH_SHORT).show();
+        setAdapter();
+    }
     private void setAdapter() {//Leer xml
         _data = new ArrayList<Data>();
         insertXML();

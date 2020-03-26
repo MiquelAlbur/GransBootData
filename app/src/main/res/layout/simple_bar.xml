@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/simple_attack_toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:divider="@drawable/divider"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/inputbartext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Input"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/guardbartext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Guard"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/activebartext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Active"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/onblockbartext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="OnBlock"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/onhitbartext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="OnHit"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/simpleatrv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+</LinearLayout>

@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.O
 
     private RecyclerView _rv;
     ArrayList<Keko> _kekos;
-    private boolean simple;
+    private boolean _simple;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.O
         setContentView(R.layout.activity_main);
         Toolbar t = findViewById(R.id.my_toolbar);
         setSupportActionBar(t);
-        simple = false;
+        _simple = false;
         this._rv = findViewById(R.id.rv);
         setTitle("Character Select");
         setAdapter();
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.O
     public void onNoteClick(int position) {
         Intent i = new Intent(this, AttackData.class);
         i.putExtra("name", _kekos.get(position).get_name());
+        i.putExtra("simple",this._simple);
         startActivityForResult(i,1);
     }
 
@@ -66,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.O
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 1){
-            simple = data.getBooleanExtra("simple",false);
+            _simple = data.getBooleanExtra("simple",false);
         }
     }
 
@@ -79,7 +81,14 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.O
     }
 
     private void toggle_display(){
-        simple ^= true;
+        _simple ^= true;
+        String t ="";
+        if(this._simple){
+            t = "Simple Mode activated";
+        }else{
+            t = "Back to Complete Mode";
+        }
+        Toast.makeText(this, t, Toast.LENGTH_SHORT).show();
     }
 
     private void getXML() {
