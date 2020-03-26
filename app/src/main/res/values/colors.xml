@@ -7,4 +7,5 @@
     <color name="Negative">#c22b2b</color>
     <color name="Positive">#65BF74</color>
     <color name="Something">#a9e4ef</color>
+    <color name="BorderColor">#454545</color>
 </resources>

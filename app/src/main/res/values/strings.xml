@@ -6,4 +6,5 @@
     <string name="image_for_the_attack">Image for the attack</string>
     <string name="character_s_portrait">Character\'s portrait</string>
     <string name="charname">charName</string>
+    <string name="toogle_simple_mode">Toogle simple mode</string>
 </resources>

@@ -145,7 +145,7 @@
         <desc></desc>
     </attack>
     <!--Unique Action-->
-    <attack input="5U">
+    <attack input="5U (Power Raise)">
         <name>5u</name>
         <damage>1000/1200/1400/1600/2000</damage>
         <type>Mid</type>
@@ -183,7 +183,7 @@
         <desc></desc>
     </attack>
     <!--Special Moves-->
-    <attack input="236L">
+    <attack input="236L (Reginleiv)">
         <name>236x</name>
         <damage>800</damage>
         <type>Mid</type>
@@ -219,7 +219,7 @@
         <advh>-</advh>
         <desc></desc>
     </attack>
-    <attack input="623L">
+    <attack input="623L (Rising Sword)">
         <name>623x</name>
         <damage>700,300(1000)</damage>
         <type>Mid</type>
@@ -255,14 +255,14 @@
         <advh>-</advh>
         <desc></desc>
     </attack>
-    <attack input="214L">
+    <attack input="214L (Override Surge)">
         <name>214x</name>
         <damage>700</damage>
         <type>Mid</type>
         <start>13</start>
         <advb>-6</advb>
         <advh>-2</advh>
-        <desc></desc>
+        <desc>Safe if spaced at max range</desc>
     </attack>
     <attack input="214M">
         <name></name>
@@ -271,7 +271,7 @@
         <start>16</start>
         <advb>-10</advb>
         <advh>-</advh>
-        <desc></desc>
+        <desc>Safe if spaced at max range, and plus if hitting with tip of the boot</desc>
     </attack>
     <attack input="214H">
         <name></name>
@@ -280,7 +280,7 @@
         <start>13</start>
         <advb>-8</advb>
         <advh>-</advh>
-        <desc></desc>
+        <desc>Safe if spaced at max range, and plus if hitting with tip of the boot</desc>
     </attack>
     <attack input="4/2S">
         <name></name>
@@ -289,10 +289,10 @@
         <start>-</start>
         <advb>-</advb>
         <advh>-</advh>
-        <desc></desc>
+        <desc>Safe if spaced at max range</desc>
     </attack>
     <!--SkyBound Art-->
-    <attack input="236236H or 236S">
+    <attack input="236236H or 236S (Tempest Blade)">
         <name>236236h</name>
         <damage>500,3000</damage>
         <type>Mid</type>
@@ -302,7 +302,7 @@
         <desc></desc>
     </attack>
     <!--Super SkyBound Art-->
-    <attack input="236236U or 236S+U">
+    <attack input="236236U or 236S+U (Catastrophe)">
         <name>236236u</name>
         <damage>1000,1000,500,500,500,*1000</damage>
         <type>Mid</type>

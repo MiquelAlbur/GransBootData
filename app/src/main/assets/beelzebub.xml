@@ -134,7 +134,7 @@
     <start>9</start>
     <advb>?</advb>
     <advh>?</advh>
-    <desc></desc>
+    <desc>3-Hit normal, if first is blocked standing, the remaining can be blocked low</desc>
   </attack>
   <attack input="j.U">
     <name>ju</name>
@@ -146,7 +146,7 @@
     <desc></desc>
   </attack>
   <!--Unique Action-->
-  <attack input="5U">
+  <attack input="5U (Shadow Move)">
     <name>5u</name>
     <damage>-</damage>
     <type>-</type>
@@ -186,7 +186,7 @@
   <!--Special Moves-->
   <!--Black Fly-->
   <!--Light-->
-  <attack input="Lvl1 236L">
+  <attack input="Lvl1 236L (Black Fly)">
     <name>236l</name>
     <damage>800</damage>
     <type>Mid</type>
@@ -205,7 +205,7 @@
     <desc></desc>
   </attack>
   <!--Medium-->
-  <attack input="Lvl1 236M">
+  <attack input="Lvl1 236M (Black Fly)">
     <name>236m</name>
     <damage>900,100</damage>
     <type>Mid</type>
@@ -233,7 +233,7 @@
     <desc></desc>
   </attack>
   <!--Heavy-->
-  <attack input="Lvl1 236H">
+  <attack input="Lvl1 236H (Black Fly)">
     <name>236h1</name>
     <damage>500,500,100</damage>
     <type>Mid</type>
@@ -261,7 +261,7 @@
     <desc></desc>
   </attack>
   <!--Langelaan Field-->
-  <attack input="623L">
+  <attack input="623L (Langelaan Field)">
     <name>623x</name>
     <damage>1000</damage>
     <type>-</type>
@@ -289,7 +289,7 @@
     <desc></desc>
   </attack>
   <!--Chaos Calibur-->
-  <attack input="214L">
+  <attack input="214L (Chaos Calibur)">
     <name>214l</name>
     <damage>200,400,400</damage>
     <type>Mid</type>
@@ -317,7 +317,7 @@
     <desc></desc>
   </attack>
   <!--Karma-->
-  <attack input="22L">
+  <attack input="22L (Karma)">
     <name>22x</name>
     <damage>100</damage>
     <type>Mid</type>
@@ -345,14 +345,14 @@
     <desc></desc>
   </attack>
   <!--Unisonic-->
-  <attack input="j.214L">
+  <attack input="j.214L (Unisonic)">
     <name>j214x</name>
     <damage>900</damage>
     <type>Mid</type>
     <start>22</start>
     <advb>-2</advb>
     <advh>Knockdown</advh>
-    <desc></desc>
+    <desc>Plus if angled correctly</desc>
   </attack>
   <attack input="j.214M">
     <name></name>
@@ -374,7 +374,7 @@
   </attack>
   <!--Skybound Art-->
   <!--Black Spear-->
-  <attack input="236236H or 236S)">
+  <attack input="236236H or 236S (Black Spear)">
     <name>236236h</name>
     <damage>2500</damage>
     <type>-</type>
@@ -393,7 +393,7 @@
     <desc></desc>
   </attack>
   <!--Ansem-->
-  <attack input="214214H">
+  <attack input="214214H (Ansem)">
     <name>214214h</name>
     <damage>2500</damage>
     <type>-</type>
@@ -403,7 +403,7 @@
     <desc></desc>
   </attack>
   <!--Super Skybound Art-->
-  <attack input="236236U or 236S+U">
+  <attack input="236236U or 236S+U (Chaos Legion)">
     <name>236236u</name>
     <damage>-</damage>
     <type>-</type>

@@ -9,6 +9,16 @@
     android:orientation="vertical"
     android:padding="10dp">
 
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/textview"
+        android:textSize="22sp" />
+
     <ImageView
         android:id="@+id/attackimage"
         android:layout_width="match_parent"
@@ -30,11 +40,10 @@
             android:gravity="center_horizontal">
 
             <TextView
-                android:id="@+id/input"
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/textview" />
+                android:text="Guard" />
 
             <TextView
                 android:id="@+id/startup"
@@ -82,6 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:gravity="center_horizontal"
                     android:text="Hit"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
@@ -90,6 +100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:text="Block"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
             </LinearLayout>
@@ -103,6 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:gravity="left"
         android:text="@string/textview" />
 
 </LinearLayout>

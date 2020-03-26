@@ -145,7 +145,7 @@
         <advh>-</advh>
         <desc></desc>
     </attack>
-    <attack input="5.U">
+    <attack input="5U (König Schild)">
         <name>5u</name>
         <damage>1500</damage>
         <type>-</type>
@@ -183,7 +183,7 @@
         <desc></desc>
     </attack>
     <!--Special Moves-->
-    <attack input="[4]6L">
+    <attack input="[4]6L (Shining Onslaught)">
         <name>46x</name>
         <damage>1000</damage>
         <type>Mid</type>
@@ -219,7 +219,7 @@
         <advh>-</advh>
         <desc></desc>
     </attack>
-    <attack input="[2]8L">
+    <attack input="[2]8L (Holy Ladder)">
         <name>28x</name>
         <damage>500,600</damage>
         <type>Mid</type>
@@ -255,7 +255,7 @@
         <advh>-</advh>
         <desc></desc>
     </attack>
-    <attack input="214L">
+    <attack input="214L (Sword of Lumiel)">
         <name>214x</name>
         <damage>200*2,400</damage>
         <type>Mid</type>
@@ -291,7 +291,7 @@
         <advh>-</advh>
         <desc></desc>
     </attack>
-    <attack input="22X">
+    <attack input="22X (Noble Strategy)">
         <name>22x</name>
         <damage>-</damage>
         <type>-</type>
@@ -302,7 +302,7 @@
             M version jumps higher and farther in order to cross-up.
             H version jumps much faster and makes the 22X~ low slash safe on block.</desc>
     </attack>
-    <attack input="22X>No Input">
+    <attack input="22X>No Input (With Surest Strike!)">
         <name>22ni</name>
         <damage>1200</damage>
         <type>Low</type>
@@ -311,7 +311,7 @@
         <advh>-</advh>
         <desc></desc>
     </attack>
-    <attack input="22X>L">
+    <attack input="22X>L (With Flying Nobility!)">
         <name>22xl</name>
         <damage>800</damage>
         <type>Mid</type>
@@ -320,7 +320,7 @@
         <advh>+3</advh>
         <desc></desc>
     </attack>
-    <attack input="22X>M">
+    <attack input="22X>M (With Purest Bravery!)">
         <name>22xm</name>
         <damage>1200</damage>
         <type>High</type>
@@ -329,7 +329,7 @@
         <advh>-</advh>
         <desc></desc>
     </attack>
-    <attack input="22X>H">
+    <attack input="22X>H (With Sweetest Skills!)">
         <name>22xh</name>
         <damage>500,1000</damage>
         <type>Throw</type>
@@ -339,7 +339,7 @@
         <desc></desc>
     </attack>
     <!--Skybound Art-->
-    <attack input="236236H or 236S">
+    <attack input="236236H or 236S (Brilliant Moon)">
         <name>236236h</name>
         <damage>500,250*8,1000</damage>
         <type>Mid</type>
@@ -349,7 +349,7 @@
         <desc></desc>
     </attack>
     <!--Super Skybound Art-->
-    <attack input="236236U or 236S+U">
+    <attack input="236236U or 236S+U (Noble Execution)">
         <name>236236u</name>
         <damage>1500,3000[2000]</damage>
         <type>Mid</type>

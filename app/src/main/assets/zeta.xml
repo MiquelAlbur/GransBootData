@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!--Normal Moves-->
-  <attack input="c.L)">
+  <attack input="c.L">
     <name>cl</name>
     <damage>400</damage>
     <type>Mid</type>
@@ -146,7 +146,7 @@
     <desc></desc>
   </attack>
   <!--Unique Action-->
-  <attack input="5U">
+  <attack input="5U (Signo Drive)">
     <name>5u</name>
     <damage>300+100x</damage>
     <type>Mid</type>
@@ -185,7 +185,7 @@
   </attack>
   <!--Special Moves-->
   <!--Infinite Wonders-->
-  <attack input="236L">
+  <attack input="236L (Infinite Wonders)">
     <name>236x</name>
     <damage>700</damage>
     <type>Mid</type>
@@ -221,8 +221,8 @@
     <advh>-</advh>
     <desc></desc>
   </attack>
-  <!--Spears of Arvess-->
-  <attack input="66L">
+  <!--Spear of Arvess-->
+  <attack input="66L (Spear of Arvess)">
     <name>66x</name>
     <damage>600</damage>
     <type>Mid</type>
@@ -259,7 +259,7 @@
     <desc></desc>
   </attack>
   <!--Spear of Arvess (Rise)-->
-  <attack input="22L">
+  <attack input="22L (Spear of Arvess [Rise])">
     <name>22x</name>
     <damage>800</damage>
     <type>-</type>
@@ -296,7 +296,7 @@
     <desc></desc>
   </attack>
   <!--Spear of Arvess(Fall)-->
-  <attack input="j.22L">
+  <attack input="j.22L (Spear of Arvess [Fall])">
     <name>j22x</name>
     <damage>800</damage>
     <type>Mid</type>
@@ -333,7 +333,7 @@
     <desc></desc>
   </attack>
   <!--Rhapsody-->
-  <attack input="214L">
+  <attack input="214L (Rhapsody)">
     <name>214x</name>
     <damage>-</damage>
     <type>-</type>
@@ -370,7 +370,7 @@
     <desc></desc>
   </attack>
   <!--Rhapsody into-->
-  <attack input="Rhapsody > L">
+  <attack input="Rhapsody > L (Crimson Cleave)">
     <name>214xl</name>
     <damage>1000</damage>
     <type>Mid</type>
@@ -379,7 +379,7 @@
     <advh>Knockdown</advh>
     <desc></desc>
   </attack>
-  <attack input="Rhapsody > M">
+  <attack input="Rhapsody > M (Rising Split)">
     <name>214xm</name>
     <damage>1000</damage>
     <type>Mid</type>
@@ -388,7 +388,7 @@
     <advh>Knockdown</advh>
     <desc></desc>
   </attack>
-  <attack input="Rhapsody > H">
+  <attack input="Rhapsody > H (Knee Assault)">
     <name>214xh</name>
     <damage>600</damage>
     <type>Mid</type>
@@ -398,7 +398,7 @@
     <desc></desc>
   </attack>
   <!--Skybound Art-->
-  <attack input="236236H or 236S (Air OK)">
+  <attack input="236236H or 236S (Air OK) (Resolute Strike)">
     <name>236236h</name>
     <damage>500,300*5,500(2500)(3000)</damage>
     <type>Mid</type>
@@ -408,7 +408,7 @@
     <desc></desc>
   </attack>
   <!--Super Skybound Art-->
-  <attack input="236236U or 236S+U">
+  <attack input="236236U or 236S+U (Sirius Roar)">
     <name>236236u</name>
     <damage>2000,2500(4500)</damage>
     <type>Mid</type>
