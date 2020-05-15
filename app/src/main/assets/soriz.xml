@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attack input="c.L">
+        <name>cl</name>
+        <damage>400</damage>
+        <type>Mid</type>
+        <start>5</start>
+        <active>3</active>
+        <recovery>6</recovery>
+        <advb>+2</advb>
+        <advh>+6</advh>
+        <desc></desc>
+    </attack>
+    <attack input="c.M">
+        <name>cm</name>
+        <damage>700</damage>
+        <type>Mid</type>
+        <start>6</start>
+        <active>5</active>
+        <recovery>10</recovery>
+        <advb>0</advb>
+        <advh>+4</advh>
+        <desc></desc>
+    </attack>
+    <attack input="c.H">
+        <name>ch</name>
+        <damage>1200</damage>
+        <type>Mid</type>
+        <start>10</start>
+        <active>6</active>
+        <recovery>15</recovery>
+        <advb>-2</advb>
+        <advh>+2</advh>
+        <desc></desc>
+    </attack>
+    <attack input="XX">
+        <name>xx</name>
+        <damage>400</damage>
+        <type>Mid</type>
+        <start>9</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-3</advb>
+        <advh>+1</advh>
+        <desc></desc>
+    </attack>
+    <attack input="XXX">
+        <name>xxx</name>
+        <damage>400</damage>
+        <type>Mid</type>
+        <start>12</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-4</advb>
+        <advh>0</advh>
+        <desc></desc>
+    </attack>
+    <attack input="f.L">
+        <name>fl</name>
+        <damage>400</damage>
+        <type>Low</type>
+        <start>7</start>
+        <active>3</active>
+        <recovery>15</recovery>
+        <advb>-5</advb>
+        <advh>-1</advh>
+        <desc></desc>
+    </attack>
+    <attack input="f.M">
+        <name>fm</name>
+        <damage>700</damage>
+        <type>Mid</type>
+        <start>8</start>
+        <active>5</active>
+        <recovery>16</recovery>
+        <advb>-6</advb>
+        <advh>-2</advh>
+        <desc></desc>
+    </attack>
+    <attack input="f.H">
+        <name>fh</name>
+        <damage>1000</damage>
+        <type>Mid</type>
+        <start>11</start>
+        <active>6</active>
+        <recovery>21</recovery>
+        <advb>-10</advb>
+        <advh>-6</advh>
+        <desc></desc>
+    </attack>
+    <attack input="2L">
+        <name>2l</name>
+        <damage>400</damage>
+        <type>Low</type>
+        <start>6</start>
+        <active>3</active>
+        <recovery>6</recovery>
+        <advb>+2</advb>
+        <advh>+6</advh>
+        <desc></desc>
+    </attack>
+    <attack input="2M">
+        <name>2m</name>
+        <damage>700</damage>
+        <type>Mid</type>
+        <start>7</start>
+        <active>6</active>
+        <recovery>12</recovery>
+        <advb>-3</advb>
+        <advh>+1</advh>
+        <desc></desc>
+    </attack>
+    <attack input="2H">
+        <name>2h</name>
+        <damage>1000</damage>
+        <type>Mid</type>
+        <start>11</start>
+        <active>3</active>
+        <recovery>24</recovery>
+        <advb>-10</advb>
+        <advh>-6</advh>
+        <desc></desc>
+    </attack>
+    <attack input="2U">
+        <name>2u</name>
+        <damage>700</damage>
+        <type>Low</type>
+        <start>11</start>
+        <active>6</active>
+        <recovery>21</recovery>
+        <advb>-12</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <attack input="j.L">
+        <name>jl</name>
+        <damage>400</damage>
+        <type>High/Air</type>
+        <start>5</start>
+        <active>Until Landing</active>
+        <recovery>-</recovery>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <attack input="j.M">
+        <name>jm</name>
+        <damage>600</damage>
+        <type>High/Air</type>
+        <start>7</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <attack input="j.H">
+        <name>jh</name>
+        <damage>800</damage>
+        <type>High/Air</type>
+        <start>8</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <attack input="j.U">
+        <name>ju</name>
+        <damage>800</damage>
+        <type>High/Air</type>
+        <start>7</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <!--Unique Action-->
+    <attack input="5U (Muscle Fury)">
+        <name>5u</name>
+        <damage>-</damage>
+        <type>-</type>
+        <start>3</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <attack input="5U 6X (Reactive Muscles)">
+        <name>5u6x</name>
+        <damage>300</damage>
+        <type>Mid</type>
+        <start>11</start>
+        <active>3</active>
+        <recovery>21</recovery>
+        <advb>-3</advb>
+        <advh>+3</advh>
+        <desc></desc>
+    </attack>
+    <!--Universal Mechanics-->
+    <attack input="Ground Throw">
+        <name>gt</name>
+        <damage>1500</damage>
+        <type>Throw</type>
+        <start>8</start>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <attack input="Air Throw">
+        <name>at</name>
+        <damage>1500</damage>
+        <type>Throw</type>
+        <start>5</start>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <attack input="Overhead Attack">
+        <name>oh</name>
+        <damage>1000</damage>
+        <type>High</type>
+        <start>26</start>
+        <advb>-4</advb>
+        <advh>+1</advh>
+        <desc></desc>
+    </attack>
+    <!--Special Moves-->
+    <attack input="236L (Impact Knuckles)">
+        <name>236l</name>
+        <damage>1000</damage>
+        <type>Mid</type>
+        <start>15[13]</start>
+        <active>4</active>
+        <recovery>19</recovery>
+        <advb>-3</advb>
+        <advh>+1</advh>
+        <desc></desc>
+    </attack>
+    <attack input="236M">
+        <name>236m</name>
+        <damage>1400</damage>
+        <type>Mid</type>
+        <start>26[25]</start>
+        <active>6</active>
+        <recovery>23</recovery>
+        <advb>-2</advb>
+        <advh>+2</advh>
+        <desc></desc>
+    </attack>
+    <attack input="236H">
+        <name>236h</name>
+        <damage>1200</damage>
+        <type>Mid</type>
+        <start>12</start>
+        <active>6</active>
+        <recovery>18</recovery>
+        <advb>-2</advb>
+        <advh>+2</advh>
+        <desc></desc>
+    </attack>
+    <attack input="623L (Roundhouse Fang)">
+        <name>623l</name>
+        <damage>1000</damage>
+        <type>Mid</type>
+        <start>7</start>
+        <active>3</active>
+        <recovery>21</recovery>
+        <advb>-7</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <attack input="623M">
+        <name>623m</name>
+        <damage>1000</damage>
+        <type>Mid</type>
+        <start>7</start>
+        <active>6</active>
+        <recovery>23</recovery>
+        <advb>-12</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <attack input="623H">
+        <name>623h</name>
+        <damage>1000</damage>
+        <type>Mid</type>
+        <start>6</start>
+        <active>6</active>
+        <recovery>19</recovery>
+        <advb>-7</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <attack input="214L (Punch the Stars)">
+        <name>214l</name>
+        <damage>250x4</damage>
+        <type>Mid</type>
+        <start>13</start>
+        <active>17</active>
+        <recovery>14</recovery>
+        <advb>-1</advb>
+        <advh>+3</advh>
+        <desc></desc>
+    </attack>
+    <attack input="214M">
+        <name>214m</name>
+        <damage>300x4</damage>
+        <type>Mid</type>
+        <start>21</start>
+        <active>17</active>
+        <recovery>14</recovery>
+        <advb>-1</advb>
+        <advh>+3</advh>
+        <desc></desc>
+    </attack>
+    <attack input="214H">
+        <name>214h</name>
+        <damage>300x4</damage>
+        <type>Mid</type>
+        <start>13</start>
+        <active>17</active>
+        <recovery>12</recovery>
+        <advb>+1</advb>
+        <advh>+5</advh>
+        <desc></desc>
+    </attack>
+    <attack input="22L (Rock Smash)">
+        <name>22l</name>
+        <damage>900</damage>
+        <type>Mid</type>
+        <start>18</start>
+        <active>6</active>
+        <recovery>19</recovery>
+        <advb>-4</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <attack input="22M">
+        <name>22m</name>
+        <damage>1200</damage>
+        <type>Mid</type>
+        <start>29</start>
+        <active>6</active>
+        <recovery>13</recovery>
+        <advb>+8</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <attack input="22H">
+        <name>22h</name>
+        <damage>1100</damage>
+        <type>Mid</type>
+        <start>15</start>
+        <active>6</active>
+        <recovery>11</recovery>
+        <advb>+4</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <!--Skybound Art-->
+    <attack input="236236H or 236S(Leaping Tier, Charging Dragon)">
+        <name>236236h</name>
+        <damage>1000+2500</damage>
+        <type>Mid</type>
+        <start>7+6</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-29</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <!--Super Skybound Art-->
+    <attack input="236236U or 236S+U (Macho Ultimatum)">
+        <name>236236u</name>
+        <damage>-</damage>
+        <type>-</type>
+        <start>10+4</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <attack input="Punch the Stars > 214X or 2S (Tenacious Will)">
+        <name>236236u214x</name>
+        <damage>1000</damage>
+        <type>Mid</type>
+        <start>20</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>+2</advb>
+        <advh>+4</advh>
+        <desc></desc>
+    </attack>
+    <attack input="Punch the Stars > 236X or 6S (Bravado Bullet)">
+        <name>236236u236x</name>
+        <damage>1000</damage>
+        <type>Mid</type>
+        <start>14</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-10</advb>
+        <advh>KD</advh>
+        <desc></desc>
+    </attack>
+    <attack input="236236U or 236S+U during Macho Ultimatum (Way of the Fundoshi Fist)">
+        <name>236236u236236u</name>
+        <damage>0+1000+1000+2000</damage>
+        <type>Throw, Mid</type>
+        <start>8+0</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>-</advb>
+        <advh>-</advh>
+        <desc></desc>
+    </attack>
+    <attack input="">
+        <name></name>
+        <damage></damage>
+        <type></type>
+        <start></start>
+        <active></active>
+        <recovery></recovery>
+        <advb></advb>
+        <advh></advh>
+        <desc></desc>
+    </attack>
+</resources>

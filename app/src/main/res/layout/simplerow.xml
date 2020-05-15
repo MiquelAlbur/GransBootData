@@ -18,7 +18,7 @@
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="@string/textview"
-        android:textSize="14dp" />
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/type"
@@ -27,7 +27,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:text="@string/textview" />
+        android:text="@string/textview"
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/startframe"
@@ -36,7 +37,30 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:text="@string/textview" />
+        android:text="@string/textview"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Active"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Recovery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/hit"
@@ -46,7 +70,8 @@
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Hit"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/block"
@@ -56,6 +81,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="Block"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="12sp" />
 
 </LinearLayout>

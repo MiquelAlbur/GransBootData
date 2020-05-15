@@ -24,6 +24,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Input"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
         <TextView
@@ -34,16 +35,40 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Guard"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/activebartext"
+            android:id="@+id/startupbartext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Startup"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/activetext"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Active"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recoverytext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Recovery"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
         <TextView
@@ -54,6 +79,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="OnBlock"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
         <TextView
@@ -64,6 +90,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="OnHit"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
     </LinearLayout>

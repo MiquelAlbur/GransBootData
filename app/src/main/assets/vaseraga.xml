@@ -6,8 +6,10 @@
         <damage>400</damage>
         <type>All</type>
         <start>7</start>
-        <advb>+5</advb>
-        <advh>+9</advh>
+        <active>3</active>
+        <recovery>5</recovery>
+        <advb>+3</advb>
+        <advh>+7</advh>
         <desc></desc>
     </attack>
     <attack input="c.M">
@@ -15,8 +17,10 @@
         <damage>800</damage>
         <type>All</type>
         <start>8</start>
-        <advb>+4</advb>
-        <advh>+8</advh>
+        <active>3</active>
+        <recovery>11</recovery>
+        <advb>+3</advb>
+        <advh>+7</advh>
         <desc></desc>
     </attack>
     <attack input="c.H">
@@ -24,8 +28,10 @@
         <damage>1500</damage>
         <type>All</type>
         <start>14[35]</start>
-        <advb>-8</advb>
-        <advh>-4</advh>
+        <active>7</active>
+        <recovery>21</recovery>
+        <advb>-4</advb>
+        <advh>0</advh>
         <desc></desc>
     </attack>
     <attack input="XX">
@@ -33,6 +39,8 @@
         <damage>400</damage>
         <type>All</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-3</advb>
         <advh>+1</advh>
         <desc></desc>
@@ -42,6 +50,8 @@
         <damage>320</damage>
         <type>All</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-4</advb>
         <advh>+0</advh>
         <desc></desc>
@@ -51,6 +61,8 @@
         <damage>700</damage>
         <type>All</type>
         <start>8</start>
+        <active>4</active>
+        <recovery>10</recovery>
         <advb>+1</advb>
         <advh>+5</advh>
         <desc></desc>
@@ -60,8 +72,10 @@
         <damage>800</damage>
         <type>All</type>
         <start>11</start>
+        <active>6</active>
+        <recovery>16</recovery>
         <advb>-5</advb>
-        <advh>+1</advh>
+        <advh>-1</advh>
         <desc></desc>
     </attack>
     <attack input="f.H">
@@ -69,6 +83,8 @@
         <damage>1300</damage>
         <type>All</type>
         <start>19[39]</start>
+        <active>6</active>
+        <recovery>30</recovery>
         <advb>-15</advb>
         <advh>-11</advh>
         <desc></desc>
@@ -78,6 +94,8 @@
         <damage>400</damage>
         <type>All</type>
         <start>6</start>
+        <active>3</active>
+        <recovery>6</recovery>
         <advb>+2</advb>
         <advh>+6</advh>
         <desc></desc>
@@ -87,8 +105,10 @@
         <damage>700</damage>
         <type>Low</type>
         <start>9</start>
+        <active>4</active>
+        <recovery>17</recovery>
         <advb>-9</advb>
-        <advh>Knockdown</advh>
+        <advh>HKD</advh>
         <desc></desc>
     </attack>
     <attack input="2H">
@@ -96,8 +116,10 @@
         <damage>1100</damage>
         <type>All</type>
         <start>13[33]</start>
-        <advb>-17</advb>
-        <advh>-13</advh>
+        <active>6</active>
+        <recovery>26</recovery>
+        <advb>-13</advb>
+        <advh>-9</advh>
         <desc></desc>
     </attack>
     <attack input="2U">
@@ -105,8 +127,10 @@
         <damage>900</damage>
         <type>Low</type>
         <start>16</start>
-        <advb>-15</advb>
-        <advh>Knockdown</advh>
+        <active>3</active>
+        <recovery>24</recovery>
+        <advb>-12</advb>
+        <advh>HKD</advh>
         <desc></desc>
     </attack>
     <attack input="j.L">
@@ -114,6 +138,8 @@
         <damage>400</damage>
         <type>High</type>
         <start>6</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -122,7 +148,9 @@
         <name>jm</name>
         <damage>700</damage>
         <type>High</type>
-        <start>14</start>
+        <start>12</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -132,6 +160,8 @@
         <damage>900</damage>
         <type>High</type>
         <start>13</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -141,6 +171,8 @@
         <damage>800</damage>
         <type>All</type>
         <start>27</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -150,7 +182,9 @@
         <name>5u</name>
         <damage>1000</damage>
         <type>Mid</type>
-        <start>23</start>
+        <start>21</start>
+        <active>1</active>
+        <recovery>21</recovery>
         <advb>-11</advb>
         <advh>+14</advh>
         <desc></desc>
@@ -160,17 +194,21 @@
         <name>gt</name>
         <damage>1500</damage>
         <type>Throw</type>
-        <start>-</start>
-        <advb>-</advb>
-        <advh>Knockdown</advh>
+        <start>7</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>HKD</advb>
+        <advh>HKD</advh>
         <desc></desc>
     </attack>
     <attack input="Air Throw">
         <name>at</name>
         <damage>1500</damage>
         <type>Throw</type>
-        <start>-</start>
-        <advb>-</advb>
+        <start>5</start>
+        <active>-</active>
+        <recovery>-</recovery>
+        <advb>HKD</advb>
         <advh>Knockdown</advh>
         <desc></desc>
     </attack>
@@ -179,6 +217,8 @@
         <damage>1000</damage>
         <type>High</type>
         <start>26</start>
+        <active>6</active>
+        <recovery>17</recovery>
         <advb>-4</advb>
         <advh>+1</advh>
         <desc></desc>
@@ -190,26 +230,32 @@
         <damage>800</damage>
         <type>All</type>
         <start>23</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-3</advb>
-        <advh>Knockdown</advh>
+        <advh>KD</advh>
         <desc></desc>
     </attack>
     <attack input="214M">
         <name></name>
-        <damage>1200</damage>
+        <damage>400,800</damage>
         <type>All</type>
         <start>12</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-9</advb>
-        <advh>Knockdown</advh>
+        <advh>KD</advh>
         <desc></desc>
     </attack>
     <attack input="214H">
         <name></name>
-        <damage>1200</damage>
+        <damage>400,800</damage>
         <type>All</type>
         <start>9</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>+6</advb>
-        <advh>Knockdown</advh>
+        <advh>KD</advh>
         <desc></desc>
     </attack>
     <attack input="5S">
@@ -217,6 +263,8 @@
         <damage>-</damage>
         <type>-</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -224,11 +272,13 @@
     <!--Battalions of Fear-->
     <attack input="[4]6L (Batallions of Fear)">
         <name>46x</name>
-        <damage>1200</damage>
+        <damage>1300</damage>
         <type>All</type>
         <start>19</start>
+        <active>18</active>
+        <recovery>15</recovery>
         <advb>-8</advb>
-        <advh>Knockdown</advh>
+        <advh>HKD</advh>
         <desc>Plus if spaced correctly</desc>
     </attack>
     <attack input="[4]6M">
@@ -236,8 +286,10 @@
         <damage>1800</damage>
         <type>All</type>
         <start>26</start>
+        <active>18</active>
+        <recovery>19</recovery>
         <advb>-12</advb>
-        <advh>Knockdown</advh>
+        <advh>KD</advh>
         <desc>Plus if spaced correctly</desc>
     </attack>
     <attack input="[4]6H">
@@ -245,8 +297,10 @@
         <damage>2000</damage>
         <type>All</type>
         <start>27[79]</start>
+        <active>33</active>
+        <recovery>17</recovery>
         <advb>-4</advb>
-        <advh>Knockdown</advh>
+        <advh>KD</advh>
         <desc>Plus if timed correctly on meaty</desc>
     </attack>
     <attack input="6S">
@@ -254,6 +308,8 @@
         <damage>-</damage>
         <type>-</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -264,8 +320,10 @@
         <damage>2000</damage>
         <type>Throw</type>
         <start>12</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
-        <advh>Knockdown</advh>
+        <advh>KD</advh>
         <desc></desc>
     </attack>
     <attack input="632146M">
@@ -273,8 +331,10 @@
         <damage>2500</damage>
         <type>Throw</type>
         <start>9</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
-        <advh>Knockdown</advh>
+        <advh>KD</advh>
         <desc></desc>
     </attack>
     <attack input="632146H">
@@ -282,8 +342,10 @@
         <damage>2000</damage>
         <type>Throw</type>
         <start>26</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
-        <advh>Knockdown</advh>
+        <advh>HKD</advh>
         <desc></desc>
     </attack>
     <attack input="4S">
@@ -291,6 +353,8 @@
         <damage>-</damage>
         <type>-</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -301,6 +365,8 @@
         <damage>-</damage>
         <type>-</type>
         <start>22</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -310,6 +376,8 @@
         <damage>-</damage>
         <type>-</type>
         <start>22</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -319,6 +387,8 @@
         <damage>-</damage>
         <type>-</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -328,6 +398,8 @@
         <damage>-</damage>
         <type>-</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -336,8 +408,10 @@
     <attack input="Savage Rampage > L (Rising Slash)">
         <name>22xl</name>
         <damage>1500</damage>
-        <type>All</type>
+        <type>Mid</type>
         <start>12[32]</start>
+        <active>3</active>
+        <recovery>21</recovery>
         <advb>+1[+2]</advb>
         <advh>Knockdown</advh>
         <desc></desc>
@@ -347,6 +421,8 @@
         <damage>1500</damage>
         <type>Low</type>
         <start>16[36]</start>
+        <active>6</active>
+        <recovery>29</recovery>
         <advb>-10</advb>
         <advh>Knockdown</advh>
         <desc></desc>
@@ -354,8 +430,10 @@
     <attack input="Savage Rampage > H (Crushing Strike)">
         <name>22xh</name>
         <damage>2000</damage>
-        <type>All</type>
+        <type>Mid</type>
         <start>15[40]</start>
+        <active>2</active>
+        <recovery>31</recovery>
         <advb>-4[+16]</advb>
         <advh>Knockdown</advh>
         <desc></desc>
@@ -363,17 +441,21 @@
     <attack input="Savage Rampage > U (Ravaging Stomp)">
         <name>22xu</name>
         <damage>2000</damage>
-        <type>All</type>
+        <type>Mid</type>
         <start>28[48]</start>
+        <active>6</active>
+        <recovery>30</recovery>
         <advb>-11</advb>
-        <advh>Knockdown</advh>
+        <advh>HKD</advh>
         <desc></desc>
     </attack>
     <attack input="Savage Rampage > 66 (March)">
         <name></name>
         <damage>500</damage>
-        <type>All</type>
+        <type>Mid</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -383,6 +465,8 @@
         <damage>-</damage>
         <type>-</type>
         <start>-</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-</advb>
         <advh>-</advh>
         <desc></desc>
@@ -391,20 +475,24 @@
     <attack input="236236H or 236S (Bloody Moon)">
         <name>236236h</name>
         <damage>3900</damage>
-        <type>-</type>
-        <start>6+11</start>
+        <type>Mid</type>
+        <start>6+5</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-26</advb>
-        <advh>Knockdown</advh>
+        <advh>HKD</advh>
         <desc></desc>
     </attack>
     <!--Super Skybound Art-->
     <attack input="236236U or 236S+U (Aftermath)">
         <name>236236u</name>
         <damage>5000</damage>
-        <type>-</type>
+        <type>Mid</type>
         <start>8+7</start>
+        <active>-</active>
+        <recovery>-</recovery>
         <advb>-27</advb>
-        <advh>Knockdown</advh>
+        <advh>HKD</advh>
         <desc></desc>
     </attack>
     <attack input="">
@@ -412,6 +500,8 @@
         <damage></damage>
         <type></type>
         <start></start>
+        <active></active>
+        <recovery></recovery>
         <advb></advb>
         <advh></advh>
         <desc></desc>
